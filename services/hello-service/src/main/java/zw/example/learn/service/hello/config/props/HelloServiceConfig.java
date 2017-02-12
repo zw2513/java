@@ -1,4 +1,4 @@
-package zw.example.learn.service.hello.config;
+package zw.example.learn.service.hello.config.props;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
