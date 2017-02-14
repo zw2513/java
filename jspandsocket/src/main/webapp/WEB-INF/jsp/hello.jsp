@@ -12,7 +12,7 @@
 </head>
 <body>
 <div>
-    hello ${name}
+	hello world
 </div>
 </body>
 </html>

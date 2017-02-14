@@ -27,6 +27,7 @@ public class TaskTest {
                 TimeUnit.SECONDS.sleep(2);
                 this.template.convertAndSend("/topic/greetings",new
                         Greeting("hello "));
+                this.template.convertAndSendToUser("hello","hello","helelo");
             } catch (Exception ex) {
 
             }
