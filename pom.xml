@@ -13,7 +13,8 @@
 		<module>others</module>
 		<module>apps</module>
 		<module>web</module>
-	</modules>
+        <module>jspandsocket</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>java-web</name>
