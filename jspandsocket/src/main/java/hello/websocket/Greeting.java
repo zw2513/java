@@ -1,4 +1,4 @@
-package hello;
+package hello.websocket;
 
 public class Greeting {
 

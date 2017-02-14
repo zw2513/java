@@ -1,4 +1,4 @@
-package hello;
+package hello.websocket;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
@@ -21,11 +21,10 @@ public class TaskTest {
         this.template = a_template;
     }
 
-    void run() {
+    public void run() {
         while (true) {
             try {
                 TimeUnit.SECONDS.sleep(2);
-                System.out.println("greeting now");
                 this.template.convertAndSend("/topic/greetings",new
                         Greeting("hello "));
             } catch (Exception ex) {
